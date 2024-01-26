@@ -3,14 +3,14 @@
 
 terraform {
 
-  # Uncomment this block to use Terraform Cloud for this tutorial
+  /*Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
     organization = "test-lyubo"
     workspaces {
       name = "learn-terraform-locals"
     }
   }
-  
+  */
 
   required_providers {
     aws = {
